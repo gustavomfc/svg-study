@@ -2,6 +2,8 @@
 var app = require('./config/server');
 console.log("RODOOU Yay!");
 
-app.get('/', function(req, res){
-    res.render("index")
-})
+//var indexRoute = require('./lib/routes/index');
+//indexRoute(app);
+
+var router = require('./lib/routes/router');
+router(app);
