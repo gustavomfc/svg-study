@@ -1,0 +1,36 @@
+
+texto1{
+    color: #d98827;
+}
+
+.st1 {
+    fill:#000000;
+    stroke:#d9ff00;
+    stroke-width:1.25
+}
+.st2 {
+    fill:#fffb00;
+    font-family:Calibri;
+    font-size:1.00001em
+}
+.st3 {
+    fill:none;
+    fill-rule:evenodd;
+    font-size:10px;
+    overflow:visible;
+    stroke-linecap:square;
+    stroke-miterlimit:3
+}
+
+.st4{
+    fill:red;
+    stroke:purple;
+    stroke-width:2
+}
+
+.st5{
+    fill:purple;
+    stroke:purple;
+    stroke-width:2 
+}
+                
