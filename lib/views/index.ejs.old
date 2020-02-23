@@ -1,0 +1,67 @@
+<html>
+
+    <head>
+        
+        <link rel="stylesheet" href="css/styles.css">
+        <!--
+        <script>
+            var evtSource = new EventSource('http://35.202.3.243:3000/updates');
+
+            evtSource.onmessage = function(e) {
+                let data=JSON.parse(e.data);
+                console.log(e.data);
+                console.log(data);
+                console.log('Classe Alarme: ' + data.alarme)
+                if (data.alarme == 1){
+                    document.getElementById("teste").setAttribute("class", "st4");
+                    console.log('trocou de cor aaahahhhhh');
+                }
+                else if (data.alarme == 2){
+                    document.getElementById("teste").setAttribute("class", "st5");
+                    console.log('trocou de cor pro 5');
+                }
+                else{
+                    console.log('hoje não, patrão');
+                }
+            }
+        </script>
+        -->
+
+        <script src="scripts/changeStyle.js"></script>
+        
+    </head>
+
+    <body>
+        <texto1>
+            But I see your true colors<br>
+            Shining through<br>
+            I see your true colors<br>
+        </texto1>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+                    xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.58175in" height="1.58175in"
+                    viewBox="0 0 113.886 113.886" xml:space="preserve" color-interpolation-filters="sRGB" class="st3">
+                <v:documentProperties v:langID="1046" v:metric="true" v:viewMarkup="false"/>
+
+                <g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+                    <title>Page-1</title>
+                    <v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+                            v:shadowOffsetY="-8.50394"/>
+                    <g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(0.25,-0.25)">
+                        <title>CirculoBolado</title>
+                        <desc>​TESTE</desc>
+                        <v:userDefs>
+                            <v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+                        </v:userDefs>
+                        <v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+                        <v:textRect cx="56.6929" cy="57.1929" width="99.22" height="85.0394"/>
+                        <path d="M0 57.19 A56.6929 56.6929 0 0 1 113.39 57.19 A56.6929 56.6929 0 1 1 0 57.19 Z" id="teste"/>
+                        <text x="3.519em" y="60.79" class="st2" v:langID="1046"><v:paragraph v:horizAlign="1"/><v:tabList/>​TESTOOU</text>		</g>
+                </g>
+            </svg>
+
+
+            
+
+    </body>
+</html>

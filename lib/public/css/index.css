@@ -1,0 +1,119 @@
+@font-face {
+	font-family: vag_rounded-bold;
+	src: url("../resources/fonts/vag_rounded-bold.ttf");
+}
+
+@font-face {
+	font-family: vag_rundschrift_d;
+	src: url("../resources/fonts/vag-rundschrift-d.ttf");
+}
+
+
+body{
+background:#cdb380;
+margin-top:2px;
+margin-bottom:2px;
+}
+
+.page{
+	font-family:verdana;
+	background:#031634;
+	width:1280px;							/*         page width       */
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.toppage{
+	position:relative;
+	background:#033649;
+	height:60px;
+	z-index:100;
+}
+
+a.titulo{
+	text-align:right;
+	display:block;
+	font-family: vag_rounded-bold;
+	font-size:44px;
+	height:25px;
+	padding: 2px 30px 2px 20px;
+	color:#e8ddcb;
+	text-decoration: none;
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+
+a.titulo:hover {
+	font-size:46px;
+	color:#cdb380;
+}
+.centerpage{
+	background:#e8ddcb;
+	color:#033649;
+	min-height:700px;	
+}
+
+.bottompage{
+	background:#033649;
+	color:#e8ddcb;
+}
+
+.main{
+	position:relative;
+	width:1260px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#main_descricao{
+	position:absolute;
+	margin-top:10px;
+	width:610px;
+	min-height:100px;
+	background:#E2D4BC;	
+	margin-left:auto;
+	margin-right:auto;	
+	top:0px;
+	left:0px;
+	border-radius:10px;
+	border:solid 1.5px #033649;
+	padding:5px;
+}
+
+#main_estrategia{
+	position:absolute;
+	margin-top:10px;	
+	width:610px;
+	min-height:400px;
+	top:175px;
+	left:0px;
+	border-radius:10px;
+	border:dotted 1.5px #033649;
+	background:#ffffff;
+	background-image: url("../images/musa2019.jpg");
+	background-size: contain;	
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding:5px;
+}
+
+#main_modref{
+	position:absolute;
+	margin-top:10px;	
+	width:610px;
+	min-height:570px;
+	top:5px;
+	left:640px;
+	border-radius:10px;
+	border:dotted 1.5px #033649;
+	background:#cecece;
+	background-image: url("../images/logo2019.png");
+	background-size: contain;	
+	background-position: center center;
+	background-repeat: no-repeat;	
+	padding:5px;
+}
